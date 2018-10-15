@@ -13,7 +13,7 @@ var User2 = /** @class */ (function () {
     };
     return User2;
 }());
-var user3 = new User2('fdfd', 'front');
+var user3 = new User2('fdfd', 'front'); //создаем объект класса
 console.log(user3);
 console.log(user3.getAge());
 user3.setTitle(false);
